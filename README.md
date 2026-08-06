@@ -1,4 +1,4 @@
-# Kredo — Self-Hosted Loan Management API
+# Aredo — Self-Hosted Loan Management API
 
 A Laravel API backend for running a loan business: borrowers apply and repay online, field officers manage their own portfolio of borrowers, and the owner sees and controls everything. White-label ready — set your own business name, logo, and contact details in minutes, no code changes required.
 
@@ -51,8 +51,8 @@ Built for lenders who want their own branded platform without building one from 
 ## Installation
 
 ```bash
-git clone https://github.com/your-org/kredo.git
-cd kredo
+git clone https://github.com/your-org/Aredo.git
+cd Aredo
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -61,7 +61,7 @@ php artisan key:generate
 Open `.env` and set your database credentials and Paystack keys:
 
 ```
-DB_DATABASE=kredo
+DB_DATABASE=Aredo
 DB_USERNAME=root
 DB_PASSWORD=
 
@@ -72,7 +72,7 @@ PAYSTACK_SECRET_KEY=
 Then run the guided setup — this migrates the database, seeds default loan products, and walks you through creating your business profile and owner account:
 
 ```bash
-php artisan kredo:install
+php artisan Aredo:install
 ```
 
 You'll be asked for:
@@ -142,7 +142,7 @@ Full endpoint-by-endpoint documentation with request/response payloads lives in 
 
 ```
 app/
-  Console/Commands/InstallKredo.php
+  Console/Commands/InstallAredo.php
   Http/
     Controllers/Api/
       AuthController.php
