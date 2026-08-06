@@ -1,5 +1,6 @@
 # Aredo — Self-Hosted Loan Management API
 
+
 A Laravel API backend for running a loan business: borrowers apply and repay online, field officers manage their own portfolio of borrowers, and the owner sees and controls everything. White-label ready — set your own business name, logo, and contact details in minutes, no code changes required.
 
 Built for lenders who want their own branded platform without building one from scratch: microfinance operators, cooperative societies, salary-advance businesses, and independent loan agents.
